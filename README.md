@@ -5,7 +5,7 @@ This project uses Power BI to organize e-commerce order data and analyze sales a
 - Project Overview
 - Data Sources & Architecture
 - Data Transformation (ETL)
-- Data Model & DAX
+- Data Model 
 - Dashboard Features
 - Key Insights
 - How To Use
@@ -25,7 +25,7 @@ This project uses Power BI to organize e-commerce order data and analyze sales a
 - Table Merge: Merged List of Orders and Order Details using Order ID to create Orders Data.
 - Summary Tables: Created summaries for order count by category, average profit by category, and total amount by sub-category. Sales target data was also prepared for monthly/category analysis.
 - Data Quality: Reviewed missing values and errors using Power Query's data profiling tools.
-🧠 Data Model & DAX
+🧠 Data Model
 - Model Type: A relationship-based model built from the available order, target, and summary tables.
 - Main Tables: List of Orders, Order Details, Sales Target, and the merged Orders Data table.
 - Summary Tables: Order Count, Average Profit by Category, and Total Amount by Subcategory.
